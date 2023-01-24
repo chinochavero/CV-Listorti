@@ -42,6 +42,8 @@ h1, h2 {
 #panel-lateral li {
     padding: 5px;
     color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #nombre {
     background-color: grey;
@@ -66,9 +68,9 @@ h1, h2 {
     font-weight: 900;
     content: "\f16d"; 
 }
-.fb::before {
+.twitter::before {
     font-family: "Font Awesome 5 Brands";
-    content: "\f082";
+    content: "\f099";
 }
 .iconos-redes::before {
     display: inline-block;
@@ -97,9 +99,10 @@ meter {
 }
 #about-me p {
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     background-color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Presentaciones */
@@ -226,6 +229,5 @@ meter {
 
 #resultado {
   text-align: center;
-  padding-top: 5px;
-  
+  padding-top: 5px;  
 }
