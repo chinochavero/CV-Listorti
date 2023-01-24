@@ -26,3 +26,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// Contador de likes
+
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("resultado").innerHTML = "Le gusta a " + localStorage.clickcount + " personas";
+  } else {
+    document.getElementById("resultado").innerHTML = "Lo sentimos, tu navegador no soporta web storage...";
+  }
+}
