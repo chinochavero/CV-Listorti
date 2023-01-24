@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/488a2287f5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header></header>
+    <div class="contenedor-principal">
+        <aside id="panel-lateral">
+            <figure id="foto-perfil">
+               <img src="./imagenes/perfil2.jpg" alt="Imágen de perfil">
+            </figure>
+            <section>
+                <h2>Experiencia</h2>
+                <ul>
+                    <li>Experiencia 1</li>
+                    <li>Experiencia 2</li>
+                    <li>Experiencia 3</li>
+                    <li>Experiencia 4</li>
+                    <li>Experiencia 5</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Educacion</h2>
+                <ul>
+                    <li>Educacion 1</li>
+                    <li>Educacion 2</li>
+                    <li>Educacion 3</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>
+                        Conducción
+                        <meter max="100" min="0" value="70" high="80" low="30" optimum="100"></meter>
+                    </li>
+                    <li>
+                        Humor
+                        <meter max="100" min="0" value="90" high="80" low="30" optimum="100"></meter>
+                    </li>
+                    <li>
+                        Baile
+                        <meter max="100" min="0" value="15" high="80" low="30" optimum="100"></meter>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Contacto</h2>
+                <ul>
+                    <li><a href="https://www.tiktok.com/es/" class="iconos-redes tiktok">Tiktok</a></li>
+                    <li><a href="https://www.instagram.com" class="iconos-redes instagram">Instagram</a></li>
+                    <li><a href="https://facebook.com" class="iconos-redes fb">Facebook</a></li>
+                </ul>
+            </section>
+        </aside>
+        <main>
+            <section id="nombre">
+                <h1>José María Listorti</h1>
+            </section>
+            <section id="about-me">
+                <h2>Acerca de mi</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis obcaecati, veritatis
+                    optio cum odit omnis aliquid repellat itaque error numquam cumque adipisci, odio earum, id
+                    quia harum provident repellendus.
+                </p>
+            </section>
+            <section id="experiencia-pro">
+                <h2>Presentaciones</h2>
+                <div class="proyect-list">
+                    
+                    <div class="proyect-detail">
+                        <iframe width="427" height="236" src="https://www.youtube.com/embed/CwCdONpSlPk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <h3>Showmatch 2009</h3>
+                    </div>
+
+                    <div class="proyect-detail">
+                        <iframe width="427" height="236" src="https://www.youtube.com/embed/XwJc96U_IUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <h3>Videomatch, la ruleta de la vida</h3>
+                    </div>
+
+                    <div class="proyect-detail">
+                        <iframe width="427" height="236" src="https://www.youtube.com/embed/1T9psb8pmi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        
+                        <h3>Lo mejor de TikTok</h3>
+                    </div>
+                    
+                </div>
+            </section>
+            <section>
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="Carrusel/Imagenes/imagen01.jpg" style="width:100%">
+                      <div class="text">HOLA SOY JAJAJJAJA</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="Carrusel/Imagenes/imagen02.jpg" style="width:100%">
+                      <div class="text"></div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="Carrusel/Imagenes/imagen03.jpg" style="width:100%">
+                      <div class="text"></div>
+                    </div>
+                  
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+                    <script src="principal.js"></script>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>
