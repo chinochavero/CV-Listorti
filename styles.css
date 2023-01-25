@@ -36,6 +36,7 @@ h1, h2 {
 #panel-lateral h2 {
     letter-spacing: 3px;
     border-bottom: 2px solid white;
+    border-top: 2px solid white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -48,6 +49,15 @@ h1, h2 {
     color: white;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+
+.primera-linea {
+  padding-top: 10px;
+}
+
+.ultima-linea {
+  padding-bottom: 10px;
 }
 
 /* Iconos Redes Sociales */
@@ -106,6 +116,14 @@ meter {
     font-family: 'Varela Round', sans-serif;
     font-size: 40px;    
 }
+
+.profesion {
+  font-size: 12px;
+  border-top: 4px solid white;
+  margin: 0px 30%;
+  padding-top: 10px;
+}
+
  
 /* Acerca de mi */
 
@@ -159,6 +177,10 @@ meter {
 .mySlides {
   display: none;
 }
+
+.mySlides img {
+  width: 100%;
+ }
 
 /* Botones de atras y siguiente */
 .prev, .next {
@@ -233,5 +255,3 @@ meter {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
