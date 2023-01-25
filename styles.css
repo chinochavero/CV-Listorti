@@ -1,4 +1,6 @@
 
+/* ---------------GENERAL---------------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +15,8 @@ h1, h2 {
     display: flex;
     width: 1200px;
 }
+
+/* ---------------ASIDE--------------- */
 
 #foto-perfil img {
     width: 300px;
@@ -45,51 +49,64 @@ h1, h2 {
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* Iconos Redes Sociales */
+
+.tiktok::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\e07b";
+}
+.instagram::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f16d"; 
+}
+.twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f099";
+}
+.iconos-redes::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding: 10px;
+  color:black;
+}
+
+/* Meter */
+
+meter {
+  display: block;
+  width: 90%;  
+}
+
+/* Boton de me Gusta */
+
+#panel-lateral button {
+  margin-left: 85px;
+  padding: 5px 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#resultado {
+ text-align: center;
+ padding-top: 5px;  
+}
+
+/* ---------------MAIN--------------- */
+
 #nombre {
     background-color: grey;
     padding: 10% 0%;
     color: white;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
-    font-size: 40px;
-    
+    font-size: 40px;    
 }
-    
-
-/* Iconos Redes Sociales */
-
-.tiktok::before {
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 900;
-    content: "\e07b";
-}
-.instagram::before {
-    font-family: "Font Awesome 5 Brands";
-    font-weight: 900;
-    content: "\f16d"; 
-}
-.twitter::before {
-    font-family: "Font Awesome 5 Brands";
-    content: "\f099";
-}
-.iconos-redes::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    padding: 10px;
-    color: white;
-}
-
-/* Meter */
-
-meter {
-    display: block;
-    width: 90%;
-    
-}
-
+ 
 /* Acerca de mi */
 
 #about-me h2 {
@@ -127,23 +144,23 @@ meter {
     text-align: center;
 }
 
-/* -------------------SlideShow BOB-----------------------*/
+/* SlideShow Bob*/
 
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* Slideshow contenedor */
 .slideshow-container {
   max-width: 500px;
   position: relative;
   margin: auto;  
 }
 
-/* Hide the images by default */
+/* Ocultar las imagenes */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+/* Botones de atras y siguiente */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -159,13 +176,13 @@ meter {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Posicion de siguiente a la derecha */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, fondo negro con un poco de transparencia */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -181,7 +198,7 @@ meter {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* texto de numero */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -190,7 +207,7 @@ meter {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* Los puntos de abajo */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -217,17 +234,4 @@ meter {
   to {opacity: 1}
 }
 
-/* Boton de me Gusta */
 
-
-#panel-lateral button {
-   margin-left: 85px;
-   padding: 5px 20px;
-   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
-  
-}
-
-#resultado {
-  text-align: center;
-  padding-top: 5px;  
-}
